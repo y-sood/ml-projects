@@ -46,9 +46,6 @@ A submission to the Titanic competition on Kaggle. The project involves feature 
 Each project includes:
 - A `README.md` describing the task, methodology, and key results
 - Jupyter notebooks or `.m`/`.py` files
-- Data (where applicable or linked)
-- `requirements.txt` or setup instructions if dependencies are needed
-
 ---
 
 ## Tools and Technologies
