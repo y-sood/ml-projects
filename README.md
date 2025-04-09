@@ -1,91 +1,65 @@
-# 🤖 Machine Learning Projects
+# Machine Learning Projects
 
-Welcome to the **ML Projects** repository! This repo showcases a collection of my machine learning projects ranging from foundational implementations to applied ML use cases. All projects are built with a focus on learning, experimentation, and clarity.
+This repository contains a collection of machine learning projects exploring various algorithms, from foundational implementations to applied classification problems. The emphasis is on building a strong conceptual understanding through hands-on experimentation.
 
 ---
 
-## 📂 Projects Included
+## Projects Included
 
-### 1. 🔧 Neural Network Foundations
-> A neural network built entirely from scratch using NumPy, with forward and backward propagation, training loops, and performance evaluation.
-
-- No deep learning libraries used
-- Focus on understanding the math behind backprop
-- Modular implementation
+### 1. Neural Network Foundations  
+An end-to-end neural network built using only NumPy. The project covers manual implementation of forward and backward propagation along with basic training logic. It serves as a learning tool to reinforce the mathematical foundations of neural networks.
 
 📁 Folder: `neural-net-foundations/`
 
 ---
 
-### 2. 🚲 Bike Usage Prediction
-> Predicting daily bike rental counts based on weather and seasonal features using regression models.
-
-- Feature engineering and EDA
-- Linear Regression, Random Forests
-- RMSE and R² evaluation
+### 2. Bike Usage Prediction  
+A classification-based approach to identify hours of high bike demand using temporal and weather data. The project includes exploratory data analysis, feature selection, and comparison of multiple classification models ranging from logistic regression to ensemble methods like bagging and boosting.
 
 📁 Folder: `bike-usage-prediction/`
 
 ---
 
-### 3. 🧠 MNIST Classifier (Alternate)
-> A clean, modular digit classifier using PyTorch (alternate to the basic MNIST tutorials).
-
-- Custom training loop
-- CNN-based architecture
-- Live accuracy & loss plots
+### 3. MNIST Classifier (Alternate)  
+A minimalist approach to handwritten digit classification using Singular Value Decomposition (SVD). The project compresses input images and classifies them based on characteristic matrices derived from training data.
 
 📁 Folder: `mnist-classifier-alternate/`
 
 ---
 
-### 4. 🧪 SVM in MATLAB
-> Implementation of Support Vector Machine from scratch in MATLAB for binary classification tasks.
-
-- Mathematical grounding in optimization
-- Linear kernel implementation
-- Decision boundary visualization
+### 4. Support Vector Machine in MATLAB  
+An optimization-based implementation of Support Vector Machine from scratch using MATLAB. The SVM is formulated as a quadratic programming problem with slack variables and solved using `quadprog`. Evaluations are performed on a real-world medical dataset.
 
 📁 Folder: `svm-matlab/`
 
 ---
 
-### 5. 🧊 Kaggle: Titanic Survival Prediction
-> A classic ML problem tackled using logistic regression, decision trees, and ensemble models.
-
-- Feature cleaning and preprocessing
-- Cross-validation and tuning
-- Submission-ready notebook
+### 5. Kaggle: Titanic Survival Prediction  
+A submission to the Titanic competition on Kaggle. The project involves feature engineering, model comparison, and hyperparameter tuning across baseline classifiers including logistic regression, decision trees, and random forests.
 
 📁 Folder: `kaggle-titanic/`
 
 ---
 
-## 📌 Structure
+## Repository Structure
 
-Each project contains:
-- `README.md` with overview and results
-- Jupyter notebooks and/or Python scripts
-- Data (if not too large or available via links)
-- Requirements file or environment instructions
+Each project includes:
+- A `README.md` describing the task, methodology, and key results
+- Jupyter notebooks or `.m`/`.py` files
+- Data (where applicable or linked)
+- `requirements.txt` or setup instructions if dependencies are needed
 
 ---
 
-## 🛠️ Technologies Used
+## Tools and Technologies
 
-- Python (NumPy, Pandas, Scikit-learn, PyTorch)
-- MATLAB (for SVM)
+- Python (NumPy, Pandas, Scikit-learn, Matplotlib)
+- MATLAB (for SVM implementation)
 - Jupyter Notebooks
-- Git for version control
+- Git and GitHub for version control
 
 ---
 
-## 🙌 Acknowledgements
+## Notes
 
-Many of these projects are inspired by online courses, Kaggle challenges, and personal learning goals. Credits and references (if any) are provided in the respective folders.
-
----
-
-### 🚀 Stay tuned for more updates and experiments!
-
-
+These projects were developed as part of self-guided learning and academic work. Where relevant, references to datasets or prior work are mentioned in individual project folders. Feedback and suggestions are welcome.
